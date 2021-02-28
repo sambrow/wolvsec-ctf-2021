@@ -37,11 +37,11 @@ app.get('/css/style7564875.css', function(req, res) {
         res.send('Mr. Roboto sez: You are almost there.  Maybe a different User-Agent: would help.')
     }
     else {
-        res.send('Mr. Roboto is proud of you! wctf{secret2}')
+        res.send('Mr. Roboto is proud of you! GLSC{d0m0_4r19470u_h4ck3r}')
     }
 });
 
-let port = 31337;
+let port = 12342;
 app.listen(port, () => {
     console.log('express listening on ' + port);
 });
