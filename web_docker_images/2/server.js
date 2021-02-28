@@ -33,8 +33,13 @@ app.get('/css/style.css', function(req, res) {
 
 app.get('/css/style7564875.css', function(req, res) {
     res.setHeader('Content-Type', 'text/plain');
-    if (req.headers["user-agent"] !== 'kilroy') {
-        res.send('Mr. Roboto sez: You are almost there.  Maybe a different User-Agent: would help.')
+
+    let userAgent = req.headers["user-agent"] || 'undefined';
+    if (userAgent) {
+        userAgent = userAgent.toLowerCase();
+    }
+    if (userAgent.indexOf('kilroy') < 0) {
+        res.send('Mr. Roboto sez: You are almost there.  Maybe a different User-Agent: would help. Your User-Agent: ' + req.headers["user-agent"]);
     }
     else {
         res.send('Mr. Roboto is proud of you! GLSC{d0m0_4r19470u_h4ck3r}')
