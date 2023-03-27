@@ -1,7 +1,3 @@
-Web challenges I created for the GLSC (Great Lakes Security Conference) 2021 CTF.
+Moved:
 
-https://ctftime.org/event/1341/
-
-To run one locally, just cd into the challenge folder and run:
-
-`docker-compose up`
+https://github.com/sambrow/my_ctf_challenges/tree/main/wolvsec_ctf_2021
